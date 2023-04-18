@@ -21,7 +21,7 @@ const cargarItems = () => {
         carro.push(nuevoItem); 
         seguir = prompt('¿Desea comprar algun otro producto? s/no');
 
-    }while (seguir == 'si');
+    }while (seguir == 's');
 }
 
 
